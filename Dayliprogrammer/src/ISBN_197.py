@@ -16,11 +16,13 @@ def CheckIsbn(tab):
         j=j-1
     
     if ((somme % 11) == 0 ):
-        print("isbn")
+        print("isbn",somme)
         return 0
     else:
-        print("pas isbn")
+        print("pas isbn",somme)
         return 1
+  
+ #on brute-force le contenu de la clées puis on vérifie  
    
 def GenerateIsbn():
     isbn=[0]*10
@@ -33,4 +35,7 @@ def GenerateIsbn():
             i=i+1
     
     print(isbn) 
-    return isbn    
+    return isbn   
+
+#la valeur max d'une la somme de verification d'un isbn est de 55*9 (495)
+#on peut generer une somme de verification et repartir 
