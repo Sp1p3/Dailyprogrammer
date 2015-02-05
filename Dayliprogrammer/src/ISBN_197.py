@@ -19,8 +19,4 @@ def CheckIsbn(tab):
     else:
         print("pas isbn")
    
-if __name__ == "__main__":
-    tab= [0,7,4,7,5,3,2,6,9,9]
-    CheckIsbn(tab)
-    tab=[0,5,4,5,0,1,0,2,2,5]
-    CheckIsbn(tab)
+
