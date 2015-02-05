@@ -38,4 +38,6 @@ def GenerateIsbn():
     return isbn   
 
 #la valeur max d'une la somme de verification d'un isbn est de 55*9 (495)
-#on peut generer une somme de verification et repartir 
+#on peut generer une somme de verification et répartir les valeurs dans l'ordre 
+# de la clées ou le désordre
+
