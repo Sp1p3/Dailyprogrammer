@@ -17,7 +17,20 @@ def CheckIsbn(tab):
     
     if ((somme % 11) == 0 ):
         print("isbn")
+        return 0
     else:
         print("pas isbn")
+        return 1
    
-
+def GenerateIsbn():
+    isbn=[0]*10
+    isbn[1] = 1 
+    while(CheckIsbn(isbn) != 0 ): 
+        print(isbn)
+        i=0
+        while i < len(isbn):
+            isbn[i]=int(random.random()*10)
+            i=i+1
+    
+    print(isbn) 
+    return isbn    
