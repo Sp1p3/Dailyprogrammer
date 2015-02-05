@@ -21,7 +21,7 @@ if __name__ == "__main__":
     ISBN_197.CheckIsbn(tab)
     print(int(random.random()*100))
     print(ISBN_197.GenerateIsbn())
-    
+    print(ISBN_197.GenerateIsbn())
 
     
     
