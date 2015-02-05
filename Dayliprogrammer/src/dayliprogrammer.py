@@ -16,9 +16,11 @@ if __name__ == "__main__":
     
         
     print("Hello 197 DONE")
-    tab= [0,7,4,7,5,3,2,6,9,9]
+    tab= [2,2,2,2,2,2,2,2,2,2]
+    print(len(tab))
     ISBN_197.CheckIsbn(tab)
     print(int(random.random()*100))
+    print(ISBN_197.GenerateIsbn())
     
 
     
