@@ -6,6 +6,7 @@
 
 __author__ = "canillas"
 __date__ = "$5 fevr. 2015 10:52:12$"
+import random 
 
 def CheckIsbn(tab):
     somme=0
