@@ -30,9 +30,12 @@ if __name__ == "__main__":
     
     print ("mumuse avec pixel")
     pixel.initialiser(40,30,20)
-    pixel.marquer(2,2)
+    
     print("largeur: ",pixel.largeur)
     print("hauteur: ",pixel.hauteur)
+    for x in range(pixel.largeur):
+        pixel.marquer(x,x)
+        pixel.afficher(1)
     pixel.afficher()
 
     
