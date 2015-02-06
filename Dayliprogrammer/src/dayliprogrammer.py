@@ -28,15 +28,24 @@ if __name__ == "__main__":
     print("Hello 200 DOING")
     FLOOD_200.hello()
     
-    print ("mumuse avec pixel")
-    pixel.initialiser(40,30,20)
+    print ("dessine des coeurs avec pixel")
+#    pixel.initialiser(30,30,20)
     
-    print("largeur: ",pixel.largeur)
-    print("hauteur: ",pixel.hauteur)
-    for x in range(pixel.largeur):
-        pixel.marquer(x,x)
-        pixel.afficher(1)
+#    print("largeur: ",pixel.largeur)
+#    print("hauteur: ",pixel.hauteur)
+#    for x in range(pixel.largeur):
+        
+#        pixel.marquer(x,x)
+#        pixel.afficher(1)
+#    pixel.afficher()
+   
+    coeurX=[1,1,2,2,2,3,3,3,4,4,4,5,5]
+    coeurY=[1,2,1,2,3,2,3,4,1,2,3,1,2]
+    pixel.initialiser(7,7,10)
+    pixel.couleur()
+    for x in range(len(coeurX)):
+        pixel.marquer(coeurX[x],coeurY[x])
+        pixel.afficher(0.1)
     pixel.afficher()
-
     
     
