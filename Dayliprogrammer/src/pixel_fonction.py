@@ -56,4 +56,11 @@ def  lettreA():
     pixel.afficher()    
     
        
-     
+def pixel_lecture():
+    return 0 
+
+def pixel_afficher():
+    return 0 
+
+    
+    

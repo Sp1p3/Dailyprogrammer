@@ -31,6 +31,11 @@ def decoupage(tab):
 def remplacement(tab,char,partie=0):
     return 0 
 # remplacement de la partie du tableau concernée 
+# trouve un caractere dans un tableau 
+# input : tableau 2D caracteres contenant par zones les coordonnés de chaques zones et les caracteres
+# output : tableau 2D caracteres contenant par zones les coordonnés de chaques zones et les caracteres avec la modification du caractere associé 
 
+def afficher(tab):
+    # affichage un tableau avec les  zones et les coordonnés de chaques zones et les caracteres 
 
  
