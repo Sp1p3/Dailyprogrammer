@@ -8,12 +8,7 @@ import ISBN_197
 import FLOOD_200
 import random
 import pixel
-
-
-
-
-    
-
+import pixel_fonction
 
 if __name__ == "__main__":
     
@@ -39,13 +34,7 @@ if __name__ == "__main__":
 #        pixel.afficher(1)
 #    pixel.afficher()
    
-    coeurX=[1,1,2,2,2,3,3,3,4,4,4,5,5]
-    coeurY=[1,2,1,2,3,2,3,4,1,2,3,1,2]
-    pixel.initialiser(7,7,10)
-    pixel.couleur()
-    for x in range(len(coeurX)):
-        pixel.marquer(coeurX[x],coeurY[x])
-        pixel.afficher(0.1)
-    pixel.afficher()
+   # pixel_fonction.coeur()
     
+    pixel_fonction.lettreB()
     
