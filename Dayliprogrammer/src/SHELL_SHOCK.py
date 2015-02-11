@@ -12,7 +12,7 @@ __author__ = "canillas"
 __date__ = "$11 fevr. 2015 10:50:30$"
 
 import sys
-import urllib2
+#import urllib2
 
 def toto():
     print("hello")

@@ -9,32 +9,9 @@ import FLOOD_200
 import random
 import pixel
 import pixel_fonction
+import SHELL_SHOCK
+import CountDay_201 
 
 if __name__ == "__main__":
-    
-        
-    print("Hello 197 DONE")
-    #tab= [2,2,2,2,2,2,2,2,2,2]
-    #print(len(tab))
-    #ISBN_197.CheckIsbn(tab)
-    #print(int(random.random()*100))
-    #print(ISBN_197.GenerateIsbn())
-    #print(ISBN_197.GenerateIsbn())
-    print("Hello 200 DOING")
-    FLOOD_200.hello()
-    
-    print ("dessine des coeurs avec pixel")
-#    pixel.initialiser(30,30,20)
-    
-#    print("largeur: ",pixel.largeur)
-#    print("hauteur: ",pixel.hauteur)
-#    for x in range(pixel.largeur):
-        
-#        pixel.marquer(x,x)
-#        pixel.afficher(1)
-#    pixel.afficher()
-   
-   # pixel_fonction.coeur()
-    
-    pixel_fonction.lettreB()
-    
+    CountDay_201.hello() 
+

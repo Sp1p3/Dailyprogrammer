@@ -37,5 +37,4 @@ def remplacement(tab,char,partie=0):
 
 def afficher(tab):
     # affichage un tableau avec les  zones et les coordonnés de chaques zones et les caracteres 
-
- 
+    return 0
