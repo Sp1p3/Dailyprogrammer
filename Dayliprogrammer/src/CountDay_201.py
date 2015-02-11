@@ -11,4 +11,4 @@ if __name__ == "__main__":
     print "Hello World";
 
 def hello():
-    print("hello)
+    print("hello")
